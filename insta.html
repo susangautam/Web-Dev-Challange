@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family: sans-serif;
+        }
+        .container{
+            display: flex;
+            height: auto;
+            align-items: center;
+            justify-content: center;
+            margin-top: 40px;
+        }
+        .container .img{
+            height: 500px;
+            width: 400px;
+            margin-right: 16px;
+            margin-bottom: 40px;
+        }
+        .container .insta-form{
+            width: 350px;
+            height: auto;
+            border: 1px solid gainsboro;
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            margin-top: -70px;
+            box-shadow: 0px 0px 28px rgba(0,0,0,0.25), 0 0px 10px rgba(0,0,0,0.22);              
+        }
+        .insta-form #wordmark{
+                margin-left: 100px;
+                padding-top: 30px;
+                padding-bottom: 30px;
+            }
+        .insta-form .inputs{
+            display: flex;
+            flex-direction: column;
+            justify-content: center; 
+        }
+        .inputs #box{
+            height: 40px;
+            width: 250px;
+            margin-left: 48px;
+            border: 1px solid gainsboro;
+            padding-left: 8px;
+            font-size: 12px;
+            background-color:whitesmoke ;
+        }
+        .inputs #button{
+            height: 40px;
+            width: 258px;
+            background-color:dodgerblue;
+            margin-left: 50px;
+            border-radius: 10px;
+            border: none;
+            color: white;
+            font-weight: bold;
+        }
+    .line{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 28px 0;
+        font-size: 14px;
+    }
+        .line hr{
+            flex: 1;
+            height: 1px;
+            background-color: gainsboro;
+            margin: 0 20px; 
+            border-bottom: 1px;
+        }
+      .login{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+        color:dodgerblue;
+      }
+      .login i{
+        font-size: 30px;
+        padding: 8px;
+      }
+      .insta-form a{
+        align-items: center;
+        margin-left: 98px;
+        font-size: 14px;
+        margin-top: 16px;
+        margin-bottom: 28px ;
+        color: dodgerblue;
+        text-decoration: none;
+      }
+      .dont{
+        display: flex;
+        height: 50px;
+        justify-content: center;
+        width: 350px;
+        border: 1px solid gainsboro;
+        margin-left: 716px;
+        align-items: center;
+        justify-items: center;
+        margin-top:-60px;
+        font-size: 14px;
+        box-shadow: 0px 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);  
+      }
+      .dont a{
+        color: cornflowerblue ;
+        text-decoration: none;
+        padding: 4px;
+      }
+    </style>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <div class="img">
+            <img src="phone.png" alt="" height="550px" width="300px">
+        </div>
+        <div class="insta-form">
+            <img src="wordmark.png" alt="" height="60px" width="160px" id="wordmark">
+            <div class="inputs">
+            <input type="text" placeholder="Phone number, username or emal address" id="box">&nbsp;
+            <input type="password" placeholder="Password" id="box"><br>
+            <button id="button"> Log In </button>
+        </div>
+        <div class="line">
+        <hr> 
+        <span id="or-text"> OR</span>
+         <hr>
+        </div>
+        <div class="login">
+        <i class='bx bxl-facebook-square' > </i><span>Log in with Facebook </span>
+         </div>
+         <a href="">Forgotten your Password?</a>
+    </div>
+    </div>
+    <div class="dont">
+        <p>Don't have an account?</p><a href="">Sign up</a>
+        </div>
+</body>
+</html>
