@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Info</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: "Raleway", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 500;
+            font-style: normal
+        }
+        body{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+        }
+        .container{
+            max-width: 350px;
+            width: 100%;
+            background-color: #D1DDDB;
+            height: fit-content;
+            box-shadow: #283B42;
+            border-radius: 30px;
+            padding: 25px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+    
+        .image{
+            position: relative;
+            height: 150px;
+            width: 150px;
+           background-color: #283B42;
+           padding: 3px;
+           border-radius: 50%;
+           margin-bottom: 15px;
+        }
+        .image .profile-image{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+           border-radius: 50%;
+           border: 3px solid white;
+        }
+        .container .text{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+        .text .name{
+            font-size: 22px;
+            font-weight: 50px;
+        }
+        .text .job{
+            font-size: 15px;
+            font-weight: 50px;
+        }
+        .container .buttons {
+            display: flex;
+            align-items: center;
+            
+        }
+
+        .buttons .link{
+            background-color: #1D6A96;
+            margin: 0 8px;
+            height: 34px;
+            width: 34px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 18px;
+            margin-top: 15px;
+            border: 0px;
+            text-decoration: none;
+        }
+        .container .interact{
+            display: flex;
+            align-items: center;
+            margin-top: 25px;
+        }
+        .interact .connect{
+            margin: 0px 10px;
+            padding: 8px 24px;
+            background-color: #283B42;
+            border-radius: 20px;
+            color: white;
+            
+        }
+        .interact .connect:hover{
+            background-color: #1D6A96;
+        }
+        .container .endings{
+            display: flex;
+            align-items: center;
+            margin-top: 25px;
+            font-size: 20px;
+            
+        }
+        .endings .end{
+            display: flex;
+            align-items: center;
+            color: black;
+            padding: 0px 20px;
+            text-decoration: none;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image">
+            <img src="abc.jpg" alt="no photo added" class="profile-image">
+        </div>
+        <div class="text">
+            <span class="name"> Susan Gautam </span>
+            <span class="job"> Graphics Designer & Learner</span>
+        </div>
+        <div class="buttons">
+            <a href="#" style="background: #3b5998;" class="link">
+                <i class='bx bxl-facebook'></i> 
+            </a>
+            <a href="#" style="background: #1da1f2;" class="link">
+                <i class='bx bxl-twitter'></i>
+            </a>
+            <a href="#" style="background: #f46f30;" class="link">
+                <i class='bx bxl-instagram' ></i>
+            </a>
+            <a href="#" style="background:#0a66c2" class="link">
+                <i class='bx bxl-linkedin' ></i>
+            </a>
+        </div>
+        <div class="interact">
+            <button class="connect"> Connect </button>
+            <button class="connect"> Message </button>
+        </div>
+        <div class="endings">
+            <a href="" class="end">
+                <i class='bx bx-heart' > 
+                    <span class="number">10k</span></i>
+            </a>
+            <a href="" class="end">
+                <i class='bx bx-message-rounded-dots'></i>
+                <span class="number">4K</span>
+            </a>
+            <a href="" class="end">
+                <i class='bx bx-user'></i>
+                <span class="number">2K</span>
+            </a>
+        </div>
+    </div>
+    
+</body>
+</html>

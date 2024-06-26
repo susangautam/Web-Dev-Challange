@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            display: flex;
+            font-family: 'Poppins',sans-serif;
+            background-color:darkgrey;
+            height: 100vh;
+            width: 100%;
+            align-items: center ;
+            justify-content: space-around;
+           }
+        .box-1{
+            display: flex;
+            flex-wrap: wrap;  
+            height: 400px;
+            width: 400px;
+            border: 2px solid black;
+            border-radius: 10px;
+            box-shadow: 0px 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+            justify-content: space-evenly;
+            align-items: center;
+            flex-direction: column;
+        }
+        .box-1:hover{
+            transform:scale(110%);
+             }
+        .box-1 h1{
+            text-align: center;
+            color: white;
+        }
+        .box-1 img{
+            height: 200px;
+            width: 200px;
+            border: 1px solid white;
+            border-radius: 20px;
+            position: relative;
+        }
+        .box-1 hr{
+            align-items: center;
+            position: relative;
+            width: 396px;
+            border: 2px solid white;
+        }
+        .box-1 p{
+            text-align: center;
+        }
+        .box-2{
+            background-color: #D1DDDB;
+            display: flex;
+            flex-wrap: wrap;  
+            height: 400px;
+            width: 400px;
+            border: 2px solid #1D6A96;
+            border-radius: 10px;
+            box-shadow: 0px 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+            justify-content: space-evenly;
+            align-items: center;
+            flex-direction: column;
+        }
+        .box-2:hover{
+            transform:skew(7deg);
+             }
+        .box-2 h1{
+            text-align: center;
+            color: #283B42;
+            text-decoration: underline;          
+        }
+        .box-2 img{
+            height: 180px;
+            width: 240px;
+            border:2px solid #283B42;
+            border-radius: 20px;
+            position: relative;        
+        }
+        .box-2 hr{
+            align-items: center;
+            position: relative;
+            width: 396px;
+            border: 2px solid #283B42;
+        }
+        .box-2 p{
+            text-align: center;
+            font-weight: 600;
+            color: #283B42;
+        }
+        .box-3{
+            background-color: #85B8CB;
+            display: flex;
+            flex-wrap: wrap;  
+            height: 400px;
+            width: 400px;
+            border: 2px solid 1D6A96;
+            border-radius: 10px;
+            box-shadow: 0px 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+            justify-content: space-evenly;
+            align-items: center;
+            flex-direction: column;
+        }
+        .box-3:hover{
+            transform:rotate(90deg);
+             }
+        .box-3 h1{
+            text-align: center;
+            color: #1D6A96;
+            text-decoration: underline;
+        }
+        .box-3 img{
+            height: 180px;
+            width: 240px;
+            border:2px solid white;
+            border-radius: 20px;
+            position: relative;     
+        }
+        .box-3 hr{
+            align-items: center;
+            position: relative;
+            width: 396px;
+            border: 2px solid #283B42;
+        }
+        .box-3 p{
+            text-align: center;
+            font-weight: 600;
+            color: #1D6A96;
+        }
+    </style>
+</head>
+<body>
+    <div class="box-1">
+        <h1>SUMMARY</h1>
+        <img src="images.jpg" alt=""><hr>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum,
+            iure.</p>     
+    </div>
+    <div class="box-2">
+        <h1>ITEM INFO</h1>
+        <img src="degree.jpg" alt=""><hr>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum,
+            iure.</p>
+    </div>
+    <div class="box-3">
+        <h1>SUMMARY</h1>
+        <img src="dasas.jpg" alt=""><hr>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum,
+            iure.</p>
+    </div>
+</body>
+</html>

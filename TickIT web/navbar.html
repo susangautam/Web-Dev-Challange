@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+      
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Poppins', sans-serif ;
+        }
+        body{
+            background-color: #D1DDDB;
+            
+        }
+        .navbar{
+            display: flex;
+            background-color: #85B8CB;
+            height: 130px;
+            width: 100%;
+            justify-content: space-between;
+            align-items: center;     
+        }
+        ul li{
+            list-style-type: none;
+            display: inline-block;
+            margin-right: 30px;
+            font-size: 27px;
+        }
+        li a{
+            text-decoration:  none;
+            color: white;
+        }
+        li a:hover{
+            color: #D1DDDB;
+        }
+        .button{
+            height: 40px;
+            width: 100px;
+            border: 1px solid white;
+            font-size: 25px;
+            border-radius: 10px;
+        }
+        button .button{
+           font-size: 50px;
+        }
+        .button:hover{
+            background-color: #D1DDDB;
+        }
+        .main{
+            align-content: center;
+            text-align: center;
+        }
+        .main h1{
+            color: #283B42;
+           font-size: 50px;
+           width: 100%;
+        }
+        #main-img{
+            display: flex;
+            height: 250px;
+            width: 450px;
+            border-radius: 10px;
+            position: absolute;
+            margin-left: 450px ;
+            margin-top: 16px;
+        }
+        .main p{
+            display: flex;
+            font-size: 16px;
+            margin-top: 290px;
+            margin-left: 360px ;
+        }
+        footer{
+            position: absolute; 
+            display: flex;
+            bottom: 0; 
+            left: 0; 
+            height: 80px;
+            background-color:#85B8CB;
+            width: 100%;
+            align-items: center;
+        }
+        .social-media .icon{
+            margin: 10px 10px;
+            height: 34px;
+            width: 34px;
+            border-radius: 50%;
+            display: inline-block;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 20px;
+            text-decoration: none;
+            padding: 10px;
+        } 
+    </style>
+</head>
+<body>
+    <div class="navbar">    
+            <a href="">
+        <img src="tickit-01.png" alt="" width="250px" height="250px" id="image"></a>
+    <ul>
+        <li>
+        <a href="">
+            Home
+            </a>
+    </li>
+    <li>
+        <a href="">
+           About Us
+            </a>
+    </li>
+    <li>
+        <a href="">
+           Services
+            </a>
+    </li>
+    <li>
+        <a href="">
+          <button class="button" > Sign In </button> 
+            </a>
+    </li>
+    </ul>   
+</div>
+<div class="main">
+    <h1>TickIT SOLUTIONS</h1>
+    <section>
+    <img src="das.jpg" alt="" id="main-img">
+    </section>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, repellendus!</p>
+</div> 
+<footer>
+    <div class="social-media">
+        <a href="#" class="icon">
+            <i class='bx bxl-facebook'></i> 
+        </a>
+        <a href="#"  class="icon">
+            <i class='bx bxl-twitter'></i>
+        </a>
+        <a href="#"  class="icon">
+            <i class='bx bxl-instagram' ></i>
+        </a>
+        <a href="#" class="icon" >
+            <i class='bx bxl-linkedin' ></i>
+        </a>
+    </div>
+</footer>    
+</body>
+</html>

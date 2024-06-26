@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family: sans-serif;
+            background-color: whitesmoke;
+        }
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            margin-top: 200px;
+        }
+        .container .fb-text{
+           display: block;
+           text-align: left;
+        }
+        .fb-text h1{
+            padding-bottom: 10px;
+            color: #1877F2;
+            font-size: 44px;
+            
+        }
+        .fb-text p{
+            font-size: 18px;
+            width: 300px;
+        }
+        .fb-form{
+            border: none;
+            height: 340px;
+            width: 340px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            box-shadow: 0px 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+            justify-content: space-evenly;
+            border-radius: 4px;
+        }
+        .fb-form #data{
+            height: 40px;
+            width: 280px;
+            border: 1px solid gainsboro;
+            border-radius: 4px;
+            padding-left: 10px;
+        }
+        .fb-form button{
+            height: 40px;
+            width: 280px;
+            background-color: #1877F2;
+            color:white;
+            border: none;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        .fb-form a{
+            text-decoration: none;
+            color: #1877F2;
+            font-size: 13px;
+        }
+        .fb-form hr{
+            border: 1px solid gainsboro;
+            border-style:groove;
+            width: 250px;
+        }
+        .fb-form #create{
+            background-color: #76B900;
+            width: 140px;
+            color: white;
+            border-radius: 4px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="fb-text">
+            <h1>Facebook</h1>
+            <p>Connect with friends and the world around you on Facebook.</p>
+        </div>
+        <div class="fb-form">
+            <input type="text" name="email" id="data" placeholder="Email or phone number">
+            <input type="password" name="email" id="data" placeholder="Password">
+            <button>Log In</button>
+            <a href=""> Forgot Password?</a>
+            <hr>
+            <button id="create">Create an account</button>
+        </div>
+    </div>
+    
+</body>
+</html>

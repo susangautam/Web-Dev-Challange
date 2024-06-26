@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color:lightgrey;
+
+        }
+        .container{
+            width: 40%;
+            background-color: white;
+            align-content: center;
+            text-align: left;
+            margin-left: 30%;
+            margin-top: 10%;
+            border: 2px solid black;
+            border-radius: 10px;
+            }
+            form{
+                align-items: center ;
+                text-align: left;
+                }
+            #form-item{
+                padding-left: 120px;
+                padding-right: 30px;
+                
+                      }
+            .input-form{
+                margin-left: 150px;
+
+            }
+            .input-form input{
+                width: 210px;
+                height: 25px;
+                border-radius: 10px ;
+                text-align: center;
+            }
+            h1{
+                text-align: center;
+            }
+           #submit{
+            background-color: gray;
+            color: #fff;
+            padding: 10px 20px;
+            border: 1px solid black;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 16px;
+           margin-left:40% ;
+           margin-bottom: 5%;
+           }
+           #submit:hover{
+            background-color: springgreen;
+           }
+
+    </style>
+</head>
+<body>
+       
+        <div class="container">
+            <H1>User Info</H1>
+            <form method="get">
+                <div class="input-form">
+                <input type="text" id="form-data" name="firstname" required placeholder="First Name"><br><br>
+                <input type="text" required id="form-data" name="lastname" placeholder="Last Name"><br><br>
+                <input type="email" id="form-data" name="email" required placeholder="Email">  <br><br>
+            <input type="text" id="form-data" name="phone" required placeholder="Phone Number"> <br><br>
+        </div>
+            <label for="gender" name="gender" name="gender" id="form-item">Gender</label>
+            <input type="radio"> Male
+            <input type="radio"> Female <br><br>
+            <input type="submit" id="submit">
+
+            
+        </form>
+        </div>
+    
+</body>
+</html>
