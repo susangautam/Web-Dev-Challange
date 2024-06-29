@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        body{
+            margin:0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: slategray;
+            font-family: 'Poppins',sans-serif;
+        }
+        .box{
+             position: relative;
+             width: 500px;
+             height: 400px;
+             display: flex;
+             justify-content: center;
+             align-content: center;
+             border: 1px solid white;
+             background: slategray;
+        }
+        .box::before{
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            bottom: -2px;
+            right: -2px;
+            background: white;
+            z-index: -1 ;
+        }
+        .box::after{
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            bottom: -2px;
+            right: -2px;
+            background: white;
+            z-index: -2 ;
+            filter:blur(20px);
+        }
+        .box::before, .box::after{
+            background: linear-gradient(75deg, red,green,yellow,blue);
+        }
+        .box .box-items{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            padding: 10px;
+        }
+        .box-items h1{
+            color: white;
+            text-decoration: underline;
+            font-size: 40px;
+        
+        }
+        .box-items p{
+            font-size: 20px;
+            text-justify:distribute;
+        
+            color:aliceblue;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="box-items">
+            <h1>Glowing Box</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium quis commodi nostrum eaque architecto rerum odio blanditiis voluptates fuga sunt!</p>
+        </div>
+    </div>   
+</body>
+</html>
