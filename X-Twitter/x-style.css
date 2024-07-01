@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 100px;
+}
+.hero-logo i {
+  color: #e7e9ea;
+  font-size: 340px;
+  margin-left: 100px;
+}
+.right-side {
+  color: white;
+  height: auto;
+  width: 600px;
+  margin-top: 60px;
+}
+.right-side h1 {
+  font-size: 75px;
+}
+.right-side h2 {
+  font-size: 32px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.login button {
+  height: 40px;
+  margin-bottom: 10px;
+  width: 300px;
+  border-radius: 20px;
+  border: none;
+  font-size: 16px;
+}
+.login span {
+  font-weight: 600;
+}
+.login i {
+  padding: 10px;
+}
+.login .line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 8px 0px;
+  font-size: 11px;
+  width: 300px;
+}
+.line hr {
+  flex: 1;
+  height: 1px;
+  background-color: #e7e9ea;
+  margin: 0 10px;
+  border-bottom: 1px;
+  width: 10px;
+}
+.login #create {
+  background-color: #1d9bf0;
+  color: white;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.login p {
+  font-size: 12px;
+  width: 300px;
+  color: grey;
+}
+.login a {
+  color: #1d9bf0;
+  text-decoration: none;
+}
+.login h3 {
+  font-size: 20px;
+  margin-top: 80px;
+  margin-bottom: 10px;
+}
+.login #sign-in {
+  background-color: black;
+  color: white;
+  border: 1px solid rgb(158, 213, 233);
+  color: #1d9bf0;
+}
+.login h3 {
+  font-size: 16px;
+  padding-bottom: 10px;
+}
