@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tesla</title>
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-image: url(asset\ 17.avif);
+            background-size:cover;
+            background-repeat:no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            list-style-type: none;
+            font-family:'Poppins',sans-serif;
+        }
+        .container{
+           
+        }
+        .navbar{
+                width: 100%;
+                height:100px;
+                display: flex;
+                justify-content:space-between;
+        }
+        .navbar .logo{
+            width: 12px;
+            height: 12px;
+            display: flex;
+          padding: 16px;
+        }
+        .nav ul{
+            display:flex;
+            flex-wrap: wrap;
+            list-style: none;
+            margin-left: 100px;
+        }
+        .nav li{
+            padding: 16px;
+            font-weight: 600;
+            font-size: 14px;
+            color: #393c41;         
+        }
+        .navbar .right-nav{
+            display: flex;         
+        }
+        .right-nav ul{
+            list-style: none;
+            display:flex;
+            flex-wrap: wrap;
+        }
+        .right-nav li{
+            padding: 12px;          
+        }
+        .right-nav img{
+            height: 24px;
+            margin-right: 10px;
+        }
+        .main-content{
+            text-align: center;
+            position: absolute;
+            top: 80px;
+            left: 450px;
+        }
+        .main-content h1{
+            font-size: 40px;
+            font-weight: 600;
+            margin-bottom: -6px;
+            color: #171a20;
+        }
+        .main-content h2{
+            font-size: 24px;
+            font-weight: 500;
+            color: #171a20;
+            margin-bottom: -8px;
+        }
+        .main-content h3{
+            font-size: 24px;
+            text-decoration: underline;
+            font-weight: 500;
+            color: #393c41;
+        }
+        .container .buttons{
+            position: absolute;
+            top: 480px;
+            left: 400px;
+           display: flex;
+           gap: 24px;
+        }
+        .buttons button{
+           padding: 4px 24px;
+            font-size: 14px;
+            height: 40px;
+            width: 260px;
+            border-radius: 4px;
+            border: none;
+            justify-content: space-evenly;
+            font-weight: bold;
+        }
+        .buttons #order{
+            color: #393c41;
+        }
+        .buttons #demo{
+            background-color: #171a20;
+            color: white;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="asset 30.svg" alt="">
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li>
+                            Vehicles
+                        </li>
+                        <li>
+                            Energy
+                        </li>
+                        <li>
+                            Charging
+                        </li>
+                        <li>
+                            Discover
+                        </li>
+                        <li>
+                            Shop
+                        </li>
+                    </ul>
+                </div>
+                <div class="right-nav">
+                    <ul>
+                        <li>
+                            <img src="asset 31.svg" alt="" id="right">
+                        </li>
+                        <li>
+                            <img src="asset 32.svg" alt="" id="right">
+                        </li>
+                        <li>
+                            <img src="asset 33.svg" alt="" id="right">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main-content">
+                <h1>Model 3</h1>
+                <h2>
+                    $7,500 Federal Tax Credit Available
+                    <sup>1</sup>
+                </h2>
+                <h3>
+                    From $33,990 After Est.Savings
+                    <sup>2</sup>
+                </h3>
+            </div>
+            <div class="buttons">
+                <button id="order">Order Now</button>
+                <button id="demo">Demo Drive</button>
+            </div>
+        </div>
+    </body>
+</html>
