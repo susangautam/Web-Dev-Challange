@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+    height: 64vh;
+    width: 40vw;
+    margin-left: 400px;
+    margin-top: 100px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: black;
+  }
+h1{
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    font-size: 40px;
+    text-decoration: underline;
+  }
+  
+  .clock {
+    position: relative;
+    width: 200px;
+    height: 200px;
+
+    border: 8px solid lightblue;
+    border-radius: 50%;
+
+  }
+  
+  .hour-hand, .minute-hand, .second-hand {
+    position: absolute;
+    background-color: white;
+    margin-left: 100px;
+    margin-top: 24px;
+  }
+  
+  .hour-hand {
+    width: 7px;
+    height: 50px;
+    top: 50px;
+    right: 98px;
+    background-color: red;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .minute-hand {
+    width: 5px;
+    height: 80px;
+    top: 34px;
+    right: 98px;
+    background-color: yellow;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .second-hand {
+    width: 3px;
+    height: 120px;
+    top: 16px;
+    color: white    ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .center {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background-color:grey;
+    border-radius: 50%;
+    top: 94px;
+    left: 94px;
+  }
+  
