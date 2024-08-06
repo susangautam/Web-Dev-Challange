@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Validate Email</title>
+      <link rel="stylesheet" href="email.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   </head>
+   <body>
+      <div class="content">
+         <header>Enter your email</header>
+         <form action="#">
+            <div class="field">
+               <input onkeyup="check()" id="email" type="text" autocomplete="off" placeholder="Enter Email Address">
+               <div class="icons">
+                  <span class="icon1 fas fa-exclamation"></span>
+                  <span class="icon2 fas fa-check"></span>
+               </div>
+            </div>
+            <div class="error-text">
+               Please Enter Valid Email Address
+            </div>
+            <button>Submit</button>
+         </form>
+      </div>
+      <script src="email.js"></script>
+   </body>
+</html>
