@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background:gray;
+}
+.wrapper{
+  background: #fff;
+  padding: 20px;
+  width: 450px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.3);
+}
+.wrapper form{
+  height: 55px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+}
+form i{
+  position: absolute;
+  width: 55px;
+  text-align: center;
+  font-size: 23px;
+  color: gray;
+  pointer-events: none;
+}
+form input:valid ~ i{
+  color: black;
+}
+form input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding: 0 50px 0 45px;
+  font-size: 20px;
+  caret-color: black;
+  border: 2px solid gray;
+  border-radius: 5px;
+  transition: all 0.1s ease;
+  color: black;
+}
+form input::selection{
+  color: gray;
+  background: black;    
+}
+form input:focus,
+form input:valid{
+  border-color: black;
+}
+form input::placeholder{
+  color: darkgray;
+}
+form .counter{
+  position: absolute;
+  right: 3px;
+  width: 55px;
+  font-size: 20px;
+  color: darkgray;
+  text-align: center;
+  border-left: 1px solid white;
+  pointer-events: none;
+}
+form input:valid ~ .counter{
+  color: black;
+  border-color: black;
+}
