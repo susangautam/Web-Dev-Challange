@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <title>Product Card</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="product.css">
+</head>
+<body>
+  <div class="product-card">
+    <div class="logo-cart">
+      <i class="fa-solid fa-cart-shopping"></i>
+    </div>
+    <div class="main-images">
+      <img id="blue" class="blue active" src="2.jpg" alt="blue">
+      <img id="pink" class="pink" src="1.jpg" alt="pink">
+      <img id="yellow" class="yellow" src="3.jpg" alt="yellow">
+    </div>
+    <div class="laptop-details">
+      <span class="laptop-name">Asus Laptop L510</span>
+      <p>Lorem ipsum dolor sit amet.</p>
+      <div class="stars">
+        <i class="fa-regular fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+        <i class="fa-regular fa-star"></i>
+      </div>
+    </div>
+    <div class="color-price">
+      <div class="color-option">
+        <span class="color">Colour:</span>
+        <div class="circles">
+          <span class="circle blue active" id="blue"></span>
+          <span class="circle pink" id="pink"></span>
+          <span class="circle yellow" id="yellow"></span>
+        </div>
+      </div>
+      <div class="price">
+        <span class="price_num">Rs. 45,000</span>
+        <span class="price_letter">Fourty Five Thousands Only</span>
+      </div>
+    </div>
+    <div class="button">
+      <div class="button-layer"></div>
+      <button>Add To Cart</button>
+    </div>
+  </div>
+  <script src="product.js"></script>
+</body>
+</html>
