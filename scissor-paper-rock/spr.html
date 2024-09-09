@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="spr.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Rock Paper Scissors</h1>
+        <div class="choices">
+            <button id="rock" data-choice="rock"><img src="rock.jpg" alt="Rock"></button>
+            <button id="paper" data-choice="paper"><img src="paper.jpg" alt="Paper"></button>
+            <button id="scissors" data-choice="scissors"><img src="scissor.jpg" alt="Scissors"></button>
+        </div>
+        <div class="selection">
+            <div id="user-choice" class="choice">
+                <img src="rock.jpg" alt="Rock" class="choice-image" />
+                <p>Your choice: Rock</p>
+            </div>
+            <div id="computer-choice" class="choice">
+                <img src="rock.jpg" alt="Rock" class="choice-image" />
+                <p>Computer's choice: Rock</p>
+            </div>
+        </div>
+        <div id="countdown" class="countdown">3</div>
+        <div id="outcome">Result: </div>
+    </div>
+    <script src="spr.js"></script>
+</body>
+</html>
