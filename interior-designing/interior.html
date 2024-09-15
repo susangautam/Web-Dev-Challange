@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interior Design</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    
+    <link rel="stylesheet" href="interior.css" />
+  </head>
+  <body>
+    <div id="home">
+ 
+    <div class="landing">
+      <header class="header">
+        <nav class="nav">
+          <a href="#" class="logo">
+            <h2 class="title">Interior Designs</h2>
+          </a>
+
+          <ul class="menu">
+            <i id="close-menu" class="fa-solid fa-xmark"></i>
+            <li class="item"><a href="#" class="link">Home</a></li>
+            <li class="item"><a href="#about" class="link">About</a></li>
+            <li class="item"><a href="#gallery" class="link">Gallery</a></li>
+            <li class="item"><a href="#services" class="link">Services</a></li>
+            <li class="item"><a href="#contact" class="link">Contact Us</a></li>
+          </ul>
+
+          <i id="open-menu" class="fa-solid fa-bars"></i>
+        </nav>
+      </header>
+
+      <section class="hero">
+        <div class="container">
+          <div class="content">
+            <div class="details">
+              <h2 class="headline">Interior Designs</h2>
+              <h3 class="subhead">Transforming spaces, elevating lives.</h3>
+              <p class="description">
+                Crafting unique interiors that reflect your style and enhance
+                every moment.
+              </p>
+
+              <div class="buttons">
+                <button class="button order">Order Now</button>
+                <button class="button contact">Contact Us</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <div id="about">
+    <div class="about-description">
+      <h1>About Us</h1>
+      <p id="description-text">
+        Experience the pinnacle of interior design with a company dedicated to transforming spaces with innovative, high-quality solutions. Our expert team crafts bespoke designs tailored to your unique style, incorporating the latest trends and technologies for a seamless blend of beauty and functionality. We prioritize exceptional craftsmanship and personalized service, managing every detail from concept to completion to ensure a smooth, stress-free process. With a focus on premium materials and enduring design, we create stunning interiors that reflect your individuality and enhance your lifestyle.
+      </p>
+      <button id="toggle-btn">Read More</button>
+    </div>
+  </div>
+
+  <div id="gallery">
+    <div class="main">
+      <h1>Gallery</h1>
+      <div class="slider">
+        <button id="prev" class="btn-icon material-symbols-rounded">
+          <i class="fa-solid fa-arrow-left"></i>
+        </button>
+        <ul class="list-images">
+          <img class="item-image" src="1.jpg" alt="img-1" />
+          <img class="item-image" src="2.jpg" alt="img-2" />
+          <img class="item-image" src="3.jpg" alt="img-3" />
+          <img class="item-image" src="4.jpg" alt="img-4" />
+          <img class="item-image" src="5.jpg" alt="img-5" />
+          <img class="item-image" src="6.jpg" alt="img-6" />
+          <img class="item-image" src="7.jpg" alt="img-7" />
+          <img class="item-image" src="8.jpg" alt="img-8" />
+          <img class="item-image" src="9.jpg" alt="img-9" />
+          <img class="item-image" src="10.png" alt="img-10" />
+        </ul>
+        <button id="next" class="btn-icon material-symbols-rounded">
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+      <div class="scrollbar">
+        <div class="track">
+          <div class="thumb"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div id="services">
+      <h2>Our Services</h2>
+      <div class="services">
+          <button class="services-btn" data-services="Space Planning">Space Planning</button>
+          <button class="services-btn" data-services="Color Consultations">Color Consultations</button>
+          <button class="services-btn" data-services="Furniture Selection">Furniture Selection</button>
+          <button class="services-btn" data-services="Decor Selection">Decor Selection</button>
+          <button class="services-btn" data-services="Lighting Design">Lighting Design</button>
+          <button class="services-btn" data-services="Styling and Accessorizing">Styling and Accessorizing</button>
+          <button class="services-btn" data-services="3D Renderings">Styling and Accessorizing</button>
+      </div>
+
+    </div>
+    
+    <div id="contact">
+      <div class="content">
+        <div class="left">
+          <div class="address">
+            <i class="fas fa-map-marker-alt"></i>
+            <div class="topic">Address</div>
+            <div class="line-one">Tilottama</div>
+            <div class="line-two">Rupandehi</div>
+          </div>
+          <div class="phone">
+            <i class="fas fa-phone-alt"></i>
+            <div class="topic">Phone</div>
+            <div class="line-one">+977 9812345678</div>
+            <div class="line-two">+977 9782037281</div>
+          </div>
+          <div class="email">
+            <i class="fas fa-envelope"></i>
+            <div class="topic">Email</div>
+            <div class="line-one">susangautam@email.com</div>
+            <div class="line-two">interior@gmail.com</div>
+          </div>
+        </div>
+        <div class="right">
+          <div class="topic-text">Send us a message</div>
+          <p>Do you want your decor to look faboulous? Contact Us Now</p>
+          <form action="#">
+            <div class="input">
+              <input type="text" placeholder="Enter your name">
+            </div>
+            <div class="input">
+              <input type="text" placeholder="Enter your email">
+            </div>
+            <div class="message">
+              <input type="text" placeholder="Enter your message">
+            </div>
+            <div class="button">
+              <input type="button" value="Send Now">
+            </div>
+          </form>
+        </div>
+      </div>
+      
+    </div>
+
+ 
+  <script src="interior.js"></script>
+</body> 
+</html>
